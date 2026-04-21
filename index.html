@@ -1,168 +1,192 @@
-<!-- ═══════════════════════════════════════════════════════════════
-     PRIVACY POLICY — AI Made Simple (Newsletter)
-     Paste this into a Carrd "Embed" element (HTML mode).
-     Font and colours will inherit from your Carrd theme.
-     ═══════════════════════════════════════════════════════════════ -->
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Don't Fear AI Book Series</title>
+<meta name="description" content="Privacy Policy for the Don't Fear AI ebook series and companion pages at ebooks.aidorzeczy.com.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
-  * { box-sizing: border-box; margin: 0; padding: 0; }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-  body, html {
-    background: #0E1C36 !important;
-    color: #CBD5E1 !important;
+  :root {
+    --ink: #0f0e0e;
+    --paper: #e8e4dc;
+    --cream: #ddd8ce;
+    --gold: #c8a951;
+    --gold-light: #e8d08a;
+    --teal: #1a7a72;
+    --teal-light: #2da89d;
+    --orange: #ba4a01;
+    --text-body: #2a2826;
+    --text-muted: #6a6258;
+    --shadow-soft: 0 4px 20px rgba(0,0,0,0.05);
+    --border-paper: 1px solid rgba(0,0,0,0.08);
   }
 
-  .pp-page {
-    background: #0E1C36;
-    min-height: 100vh;
-    padding: 48px 24px 64px;
-    font-family: 'Segoe UI', Arial, sans-serif;
+  body {
+    background-color: var(--paper);
+    color: var(--text-body);
+    font-family: 'DM Sans', sans-serif;
+    line-height: 1.6;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
   }
 
-  .pp-wrap {
-    max-width: 680px;
-    margin: 0 auto;
-    font-size: 0.95rem;
-    line-height: 1.8;
-    color: #CBD5E1;
+  .container {
+    max-width: 800px;
+    background: #fff;
+    padding: 60px;
+    box-shadow: var(--shadow-soft);
+    border-radius: 4px;
+    border: var(--border-paper);
   }
 
-  .pp-badge {
-    display: inline-block;
-    background: rgba(249,115,22,0.12);
-    color: #F97316;
-    font-size: 0.72rem;
-    font-weight: 700;
-    letter-spacing: 0.14em;
+  header {
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+  }
+
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: var(--ink);
     text-transform: uppercase;
-    padding: 4px 14px;
-    border-radius: 20px;
-    border: 1px solid rgba(249,115,22,0.3);
-    margin-bottom: 20px;
-  }
-
-  .pp-wrap h1 {
-    font-size: 1.5rem;
-    font-weight: 800;
-    color: #ffffff;
-    margin-bottom: 6px;
-    line-height: 1.3;
-  }
-
-  .pp-subtitle {
-    font-size: 0.88rem;
-    color: #64748B;
-    margin-bottom: 36px;
-  }
-
-  .pp-section {
-    background: #162035;
-    border: 1px solid #1E3050;
-    border-left: 3px solid #F97316;
-    border-radius: 10px;
-    padding: 20px 24px;
-    margin-bottom: 16px;
-  }
-
-  .pp-section h2 {
-    font-size: 0.92rem;
-    font-weight: 700;
-    color: #F97316;
+    letter-spacing: -1px;
     margin-bottom: 10px;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
   }
 
-  .pp-section p {
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: var(--ink);
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-left: 4px solid var(--gold);
+    padding-left: 15px;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+    color: var(--teal);
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+
+  p, ul {
+    margin-bottom: 20px;
+    color: var(--text-body);
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  li {
     margin-bottom: 8px;
-    color: #CBD5E1;
   }
 
-  .pp-section p:last-child { margin-bottom: 0; }
-
-  .pp-section ul {
-    margin: 8px 0 0 18px;
-    color: #CBD5E1;
+  .meta {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    font-weight: 500;
   }
 
-  .pp-section ul li { margin-bottom: 5px; }
+  strong { color: var(--ink); }
 
-  .pp-section a {
-    color: #F97316;
-    text-decoration: none;
+  a { color: var(--teal); text-decoration: underline; }
+  a:hover { color: var(--orange); }
+
+  @media (max-width: 600px) {
+    .container { padding: 30px 20px; }
+    h1 { font-size: 1.8rem; }
   }
-
-  .pp-section a:hover { text-decoration: underline; }
-
-  .pp-section strong { color: #F1F5F9; }
-
-  .pp-meta {
-    margin-top: 28px;
-    font-size: 0.78rem;
-    color: #475569;
-    border-top: 1px solid #1E3050;
-    padding-top: 16px;
-    text-align: center;
-  }
-
-  .pp-meta a { color: #F97316; text-decoration: none; }
 </style>
+</head>
+<body>
 
-<div class="pp-page">
-<div class="pp-wrap">
+<div class="container">
+  <header>
+    <p class="meta">Legal / Privacy Policy</p>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Last Updated: April 14, 2026</p>
+  </header>
 
-  <div class="pp-badge">AI Made Simple · Legal</div>
-  <h1>Privacy Policy</h1>
-  <p class="pp-subtitle">Newsletter "AI Made Simple" · Last updated: March 2026</p>
+  <section id="administrator">
+    <h2>1. Data Administrator</h2>
+    <p>The administrator of your personal data is <strong>Leszek Ignatowicz</strong>, independent author and publisher, based in Warsaw, Poland. You can contact the administrator via email at: <strong>ebooks@aidorzeczy.com</strong>.</p>
+    <p>This policy applies to the <strong>Don't Fear AI</strong> book series and its companion websites (e.g., ebooks.aidorzeczy.com).</p>
+  </section>
 
-  <div class="pp-section">
-    <h2>1. Who controls your data?</h2>
-    <p>The data controller is <strong>Leszek Ignatowicz</strong>,<br>
-    ul. Gilarska 139, 03-589 Warsaw, Poland.</p>
-    <p>Contact for all data-related matters:<br>
-    <a href="mailto:ebooks@aidorzeczy.com">ebooks@aidorzeczy.com</a></p>
-  </div>
-
-  <div class="pp-section">
-    <h2>2. What data do we collect and why?</h2>
-    <p>I collect only your <strong>first name</strong> and <strong>email address</strong>, for one specific purpose: to send you educational materials, e-books, and the newsletter about artificial intelligence as described at the point of sign-up.</p>
-    <p>The legal basis is your <strong>freely given consent</strong> (Article 6(1)(a) GDPR). You may withdraw it at any time — see Section 5.</p>
-  </div>
-
-  <div class="pp-section">
-    <h2>3. Where does your data go?</h2>
-    <p>I use <strong>Mailchimp</strong> (Intuit Inc.) to manage the mailing list and send messages. Your data may be stored on servers in the United States, safeguarded through <strong>Standard Contractual Clauses (SCCs)</strong> approved by the European Commission.</p>
-    <p>I do <strong>not</strong> sell, rent, or share your data with any other third parties.</p>
-  </div>
-
-  <div class="pp-section">
-    <h2>4. How long do we keep your data?</h2>
-    <p>Your email address and first name are retained <strong>only for as long as you remain subscribed</strong>. Once you unsubscribe, your data is deleted from the list.</p>
-  </div>
-
-  <div class="pp-section">
-    <h2>5. Your rights under GDPR</h2>
-    <p>As a data subject in the EU/EEA, you have the right to:</p>
+  <section id="data-collection">
+    <h2>2. Data We Collect</h2>
+    <p>We believe in data minimalism. We only collect information that is strictly necessary to provide you with our content and updates.</p>
     <ul>
-      <li><strong>Access</strong> your personal data and request a copy</li>
-      <li><strong>Rectify</strong> inaccurate or incomplete data</li>
-      <li><strong>Erase</strong> your data ("right to be forgotten")</li>
-      <li><strong>Restrict</strong> or <strong>object</strong> to processing</li>
-      <li><strong>Withdraw consent</strong> at any time, without affecting prior processing</li>
-      <li><strong>Lodge a complaint</strong> with a supervisory authority — in Poland: <a href="https://uodo.gov.pl" target="_blank" rel="noopener">UODO</a>, or with the authority in your country of residence</li>
+      <li><strong>Email Address:</strong> Collected when you sign up for our newsletter or request free bonuses.</li>
+      <li><strong>Technical Data:</strong> Standard server logs (IP address, browser type) collected by our hosting provider (GitHub Pages) for security and maintenance.</li>
+      <li><strong>Source Information:</strong> We may track which specific book page you signed up from to better understand which content interests our readers.</li>
     </ul>
-    <p style="margin-top:12px;">Every email contains a one-click <strong>unsubscribe link</strong> that immediately removes your data. You may also contact me directly at <a href="mailto:ebooks@aidorzeczy.com">ebooks@aidorzeczy.com</a>.</p>
-  </div>
+  </section>
 
-  <div class="pp-section">
-    <h2>6. Cookies and tracking</h2>
-    <p>This sign-up page does not use tracking cookies. Mailchimp may use standard open/click tracking within emails — you can disable images in your email client to opt out.</p>
-  </div>
+  <section id="usage">
+    <h2>3. How We Use Your Data</h2>
+    <h3>3.1 Newsletter & Bonuses (Lead Magnet)</h3>
+    <p><strong>Purpose:</strong> To deliver requested free book fragments, bonuses, or AI guides, and to send periodic updates regarding new prompts, AI tool news, and upcoming books in the series.</p>
+    <p><strong>Legal Basis:</strong> Your explicit consent (GDPR Art. 6(1)(a)) and the necessity to perform an agreement to deliver requested digital content (GDPR Art. 6(1)(b)).</p>
+    
+    <h3>3.2 Data Processors</h3>
+    <p>We use trusted third-party services to manage your data:</p>
+    <ul>
+      <li><strong>Mailchimp:</strong> Used to store your email and send newsletters.</li>
+      <li><strong>Formspree:</strong> Used to process form submissions from our contact and newsletter pages.</li>
+      <li><strong>Google Drive:</strong> Used to host and deliver PDF bonuses and book fragments.</li>
+    </ul>
+  </section>
 
-  <div class="pp-meta">
-    AI Made Simple · Leszek Ignatowicz · Warsaw, Poland ·
-    <a href="mailto:ebooks@aidorzeczy.com">ebooks@aidorzeczy.com</a>
-  </div>
+  <section id="platforms">
+    <h2>4. Platforms & Sales</h2>
+    <p>The <strong>Don't Fear AI</strong> ebook series is sold exclusively through <strong>Amazon Kindle Direct Publishing (KDP)</strong>. When you purchase a book on Amazon, they act as the independent data administrator and process your payment and personal data under their own Privacy Notice. We do not receive your name, email address, or payment details in connection with individual purchases.</p>
+  </section>
 
+  <section id="retention">
+    <h2>5. Data Retention</h2>
+    <ul>
+      <li><strong>Newsletter Data:</strong> We keep your email address until you choose to unsubscribe or we discontinue the service.</li>
+      <li><strong>Server Logs:</strong> Managed by GitHub Inc. per their own retention schedule (typically up to 90 days).</li>
+    </ul>
+  </section>
+
+  <section id="cookies">
+    <h2>6. Cookies & Tracking</h2>
+    <p>This website <strong>does not use</strong> advertising or marketing trackers (such as Meta Pixel or Google Ads). We only use:</p>
+    <ul>
+      <li><strong>Essential Functions:</strong> Necessary elements for the website to function (e.g., form routing via Formspree).</li>
+      <li><strong>Google Fonts:</strong> Loaded via stylesheet link; font files are cached by your browser. No cookies are set for this purpose.</li>
+    </ul>
+  </section>
+
+  <section id="rights">
+    <h2>7. Your Rights (GDPR/UK GDPR)</h2>
+    <p>Regardless of your location, we honor your privacy rights under the European standard:</p>
+    <ul>
+      <li><strong>Access & Deletion:</strong> You can request a copy of your data or its deletion at any time by contacting <strong>ebooks@aidorzeczy.com</strong>.</li>
+      <li><strong>Right to lodge a complaint:</strong> You have the right to complain to a Data Protection Authority. Since the Administrator is based in Poland, you may contact the <strong>President of the Personal Data Protection Office (PUODO)</strong>, ul. Stawki 2, 00-193 Warsaw, Poland (https://uodo.gov.pl/en).</li>
+    </ul>
+  </section>
+
+  <section id="security">
+    <h2>8. Security</h2>
+    <p>We take reasonable technical and organisational measures to protect your data. All data management is performed on secure, updated workstations and through encrypted connections (SSL/TLS).</p>
+  </section>
+
+  <hr>
+  <p style="text-align: center; font-size: 0.9rem;">&copy; 2026 Leszek Ignatowicz. Contact: ebooks@aidorzeczy.com</p>
 </div>
-</div>
+
+</body>
+</html>
